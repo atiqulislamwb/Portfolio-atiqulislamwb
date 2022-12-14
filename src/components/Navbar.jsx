@@ -102,7 +102,7 @@ export const MobileNav = () => {
       </div>
       {toggle && (
         <div
-          className={`smooth-transition  absolute top-0 h-[54vh] rounded-br-[15px]  w-2/3 opacity-100 bg-[#bae1db] backdrop-blur-lg z-10
+          className={`smooth-transition  absolute top-0 h-[65vh] rounded-br-[15px]  w-2/3 opacity-100 bg-[#bae1db] backdrop-blur-lg z-10
             p-6 sm:hidden  ${toggle ? "left" : "-left-full"} `}
         >
           <div className="flex slide-top flex-col gap-6 mt-20 text-lg font-semibold sub-title">

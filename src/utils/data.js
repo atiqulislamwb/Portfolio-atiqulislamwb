@@ -97,9 +97,27 @@ export const topProjects = [
       },
     ],
   },
-
   {
     id: 4,
+    src: "https://i.ibb.co/fvGRBYV/Crypto-Tracker.png",
+    name: "Crypto Tracker",
+    full_name: "Crypto Tracker - A Mobile app for tacking crypto currency",
+    project_details: [
+      "This is crypto currency tracking Mobile App",
+      "This app contains 1 screen",
+      "This app contains different dummy data",
+    ],
+    technology: ["React Native"],
+    links: [
+      {
+        id: 1,
+        source_code:
+          "https://github.com/atiqulislamwb/Crypto-Tracker-React-Native",
+      },
+    ],
+  },
+  {
+    id: 5,
     src: "https://i.ibb.co/th9GRxF/pronef.jpg",
     name: "ProNef",
     full_name: "ProNef - A nft cross-platform Mobile App ",

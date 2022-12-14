@@ -57,7 +57,9 @@ const Home = () => {
       </div>
       <div className="flex justify-center items-center sm:items-start  mt-28 sm:mt-24 flex-col text-3xl gap-3">
         <p className="sm:text-3xl text-2xl ">Hi There!</p>
-        <p className="font-semibold text-2xl">It's Atiqul Islam (Russell)</p>
+        <p className="font-semibold text-2xl sm:text-3xl">
+          It's Atiqul Islam (Russell)
+        </p>
         <p className="flex gap-2 text-2xl font-bold sm:text-4xl ">
           I am A{" "}
           <p className="text-red-600 font-bold ">

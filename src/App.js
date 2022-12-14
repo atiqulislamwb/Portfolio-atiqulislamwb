@@ -16,10 +16,10 @@ function App() {
         <DesktopNav />
       </div>
       <div className="sm:h-[100vh] w-full overflow-hidden">
-        <div className="h-[5vh] sm:hidden">
+        <div className="h-[7vh] sm:hidden">
           <MobileNav />
         </div>
-        <div className="sm:h-[95vh] h-[90vh] overflow-y-auto scrollable-element ">
+        <div className="sm:h-[95vh] h-[88vh] overflow-y-auto scrollable-element ">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
